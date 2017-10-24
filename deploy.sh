@@ -1,7 +1,6 @@
 #!/bin/bash
 # Split on "/", ref: http://stackoverflow.com/a/5257398/689223
-REPO_SLUG_ARRAY=(${TRAVIS_REPO_SLUG//\// })
-REPO_NAME=${REPO_SLUG_ARRAY[1]}
+REPO_NAME=dashjs
 DEPLOY_PATH=./
 
 DEPLOY_SUBDOMAIN_UNFORMATTED_LIST=()

@@ -1,3 +1,5 @@
-*
-!dist/
-!samples/
+/*
+/*/
+!/samples/
+!/dist/
+!/contrib/
